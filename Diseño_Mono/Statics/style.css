@@ -1,0 +1,77 @@
+h1{
+    background-color: #ffe4c4;
+}
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/papel-pintado-del-mono-69811019.jpg);
+}
+.formulario{
+    text-align: center;
+    width: 300px;
+    background-color: bisque;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4c4;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #000;
+  }
+  
+  .formulario {
+    margin: 20px auto;
+    width: 300px;
+    background-color: #ffe4c4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #63d16c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  input[type="reset"] {
+    background-color: #d65b5b;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }

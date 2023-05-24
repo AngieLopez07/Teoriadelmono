@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teoria del Mono</title>
+    <link rel="stylesheet" href="./Statics/style.css">
+    <link rel="icon" href="./Statics/Favicoin.ico.jpg" type="image/x-icon">
+</head>
+<body>
+    <center><h1>Teoria del Mono</h1></center>
+    <div class="formulario">
+    <form action="./Dynamics/monos.php" method="POST">
+        <label for="palabras">Palabras a buscar:</label>
+        <input type="text" name="palabras" id="palabras" required><br><br>
+
+        <label for="modo">Modo de busqueda:</label>
+        <select name="modo" id="modo">
+            <option value="normal">Normal</option>
+            <option value="palabras">Palabras</option>
+            <option value="desorden">Desorden</option>
+        </select><br><br>
+
+        <label for="zona-horaria">Zona horaria:</label>
+        <select name="zona-horaria" id="zona-horaria">
+            <option value="America/Mexico_City">Ciudad de Mexico</option>
+            <option value="America/New_York">Nueva York</option>
+            <option value="Europe/Madrid">Madrid</option>
+        </select><br><br>
+
+        <input type="submit" value="Buscar">
+        <input type="reset" value="Borrar">
+    </form>
+    </div>
+</body>
+</html>
